@@ -1,0 +1,4 @@
+interface:
+  display_name: "Article Writing Partner"
+  short_description: "Explore your ideas, then edit in your own voice"
+  default_prompt: "Use $article-writing-partner to explore my article idea through questions and answers, then help me edit my own rough passages in a reflective, professional tone with a cheeky streak."
