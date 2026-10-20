@@ -212,7 +212,19 @@ Confidence in the approach should therefore rest on both the quality of the chan
 
 ### Your draft
 
-<!-- Write your paragraphs here. -->
+As leaders, we need to consider two pressures on the future engineering talent pipeline: how many people get the opportunity to enter it, and what they learn before and after they arrive. An organisation’s own use of AI is only part of that picture.
+
+Judgement and critical thinking begin developing long before someone’s first engineering role. If students routinely use AI to supply the answers, construct the arguments and make the connections for them, they may complete assignments while missing some of the practice those assignments were meant to provide. The cheat code is available before the first day at work. My concern is that a gap in understanding could begin in education and then be carried into a workplace that makes it equally convenient to work around it.
+
+Hiring adds a second pressure. SignalFire’s June 2026 talent report put new-graduate and entry-level hiring approximately 65% below 2019 levels at its tracked large technology companies, and 76% below 2019 at its tracked early-stage startups. Yet engineering hiring across all experience levels at those startups was 7% above 2019. That distinction matters: recruitment can recover overall while opportunities at the beginning of a career remain constrained. These figures come from SignalFire’s proprietary profile data and selected company groups, not a census of junior software jobs. [SignalFire, 2026](https://www.signalfire.com/blog/signalfire-state-of-talent-report-2026)
+
+Anthropic offers a more recent, narrower example. In its October 2026 report, the company said the proportion of junior technical hires had fallen from 27% to 9% since early 2025. Its total technical hiring continued to grow, so the falling share does not by itself establish a fall in the number of juniors hired. It is also one employer with an unusual relationship to AI. [Anthropic, 2026](https://www.anthropic.com/research/employment-at-anthropic)
+
+Neither report establishes how much of the change was caused by AI. But they make the entry route worth examining alongside the learning experience. If fewer people get a first opportunity, and some of those who do receive less practice in exercising judgement, the pressures could compound. Improving one employer’s tooling would address only part of that problem.
+
+In the short term, experienced colleagues may absorb the extra review and difficult decisions. That can make the consequences easy to miss. Over time, a narrower intake and weaker development could leave fewer engineers ready to take on wider responsibility. An employer might plan to hire that experience when it needs it, but that depends on someone having developed it elsewhere.
+
+This is a possible future, not an inevitable shortage. AI capabilities will change, roles will evolve and engineers may adapt to these pressures, as engineers do. But that requires conscious effort and foresight. We need to plan for the capability we will need and make room for people to develop it.
 
 ## 6. The argument has serious alternatives
 
@@ -229,7 +241,23 @@ Confidence in the approach should therefore rest on both the quality of the chan
 
 ### Your draft
 
-<!-- Write your paragraphs here. -->
+The risks facing junior developers are not inevitable. AI tools and the ways we use them will change, and some of the answers to today’s problems may emerge through that development. We should take the possibilities for learning as seriously as the risks of bypassing it.
+
+AI offers an opportunity to develop the very skills I am concerned about losing. A student can ask it to produce an answer, but they can also ask it to challenge their assumptions, explore alternatives and question the reasoning behind their own conclusions. Used this way, AI becomes a learning partner that helps them work through a problem and defend their choices. The same tool that makes it possible to bypass judgement can also help someone practise and strengthen it.
+
+At work, that could mean using AI to trace a request through a codebase, explore why components interact as they do or compare possible improvements. AI never tires of you asking “Why?” Its explanations still need checking against the code and the decisions behind it, but the opportunity to investigate further is valuable. The same tool that can supply a solution can also help an engineer work through it.
+
+There is evidence that carefully designed AI tutoring can improve learning. Kestin and colleagues studied 194 students in a Harvard undergraduate physics course, comparing a structured AI tutor with active classroom learning across two lessons. Students achieved greater immediate learning gains with the tutor. It used expert-prepared material and teaching guidance, so this was not a test of an unrestricted chatbot or of long-term engineering development. It nevertheless provides a serious example of AI supporting understanding. [Kestin et al., 2025](https://pmc.ncbi.nlm.nih.gov/articles/PMC12179260/)
+
+Evidence from programming also challenges the idea that code generation must undermine learning. In a controlled study of 69 novices aged 10–17, Kazemitabaar and colleagues found that access to an AI code generator improved code-authoring performance. The study did not find a statistically significant overall difference in retention-test performance one week later. That does not prove the approaches were equivalent or that longer-term harm is impossible. It shows why we should investigate the learning environment and the way the tool is used before assuming a particular outcome. [Kazemitabaar et al., 2023](https://arxiv.org/html/2302.07427v2)
+
+Nor did uncritical acceptance begin with AI. A Stack Overflow answer could be copied into a codebase long before anyone could prompt a model to produce the same change. Fischer and colleagues’ 2017 analysis found security-related Stack Overflow snippets matching code in published Android applications, including snippets classified as insecure. That analysis could not tell us what individual developers understood or why they used the code. It does document the presence of insecure reused examples before generative AI. Reusing an answer has never guaranteed that it suits the application. [Fischer et al., 2017](https://conferences.computer.org/sp/pdfs/sp/2017/5533a121.pdf)
+
+A poorly reasoned PR is therefore not enough to establish that AI caused the gap in judgement. The engineer may lack context, have had little useful coaching or be responding to pressure to finish. Those conditions deserve attention alongside the tool. Otherwise, we risk blaming AI for a development problem that would have needed addressing anyway.
+
+We should also leave room for expertise itself to change. Future roles may place greater value on directing agents, evaluating their work and coordinating changes across a system. Engineers entering the profession with these tools could develop valuable capabilities through a different route from ours. We cannot assume that every skill we acquired will retain the same importance, or that familiarity with AI alone will prepare someone for wider responsibility.
+
+If engineers using AI retain what they learn, apply it to unfamiliar work and take on greater responsibility with less support, that would challenge the concern running through this paper. We should be willing to recognise that outcome. The practical question is how to give it the best chance of happening.
 
 ## 7. Plan, understand, then implement
 
@@ -315,7 +343,7 @@ Confidence in the approach should therefore rest on both the quality of the chan
 
 - [Stanford HAI — 2026 AI Index: Economy](https://hai.stanford.edu/ai-index/2026-ai-index-report/economy). Current outline note: reports a nearly 20% employment decline from 2024 for software developers aged 22–25, with growth in most older cohorts. **Source-review status:** underlying dataset, dates, geography and comparison groups still need review.
 - [PwC — 2026 Global AI Jobs Barometer announcement, 15 June 2026](https://www.pwc.com/gx/en/news-room/press-releases/2026/pwc-2026-ai-jobs-barometer.html). Current outline note: reports that highly AI-exposed US entry-level roles are seven times more likely to request skills associated with senior work, while those “seniorised” openings also grew. **Source-review status:** full methodology and comparator still need review.
-- [Anthropic — How employment is changing at Anthropic, 16 October 2026](https://www.anthropic.com/research/employment-at-anthropic). Current outline note: reports a declining junior share of technical hiring. By August 2026, interactive agent runtime was six times estimated human working hours, based on a 40-hour week. Runtime does not equal human effort, useful output or displacement. **Source-review status:** definitions, denominators and wider applicability still need review.
+- [Anthropic — How employment is changing at Anthropic, 16 October 2026](https://www.anthropic.com/research/employment-at-anthropic). Junior technical hiring-share evidence is now used in section 5; see the reviewed source note below. Agent-runtime comparisons are not used as measures of useful output or displacement.
 - [*The Quiet Handover*](./TheQuietHandover-Oct2026.pdf). Local companion paper for the established themes of judgement and approval, practice loss and apprenticeship, and people-first implementation. **Source-review status:** relevant sections identified locally; quote and page-level citation checks remain for drafting.
 
 ### Evidence used in sections 2 and 3
@@ -333,6 +361,19 @@ Confidence in the approach should therefore rest on both the quality of the chan
 - [Galesic and Bosnjak — Effects of Questionnaire Length on Participation and Indicators of Response Quality in a Web Survey (2009)](https://doi.org/10.1093/poq/nfp031). **Type:** web-survey experiment. **Review:** publisher abstract checked; question order was varied. Later responses were quicker, less detailed and more uniform on the reported indicators. An analogy for sustained engagement, not direct evidence of fatigue or poorer engineering decisions in AI workflows.
 - [Buçinca, Malaya and Gajos — To Trust or to Think (2021)](https://arxiv.org/html/2102.09692). **Type:** experiment analysing 199 participants using simulated AI on a nutrition task. **Review:** primary methods and findings checked. Supports reduced overreliance from interventions encouraging deliberation and a trade-off with user preference. Not a coding, junior-versus-senior or long-term learning study.
 - **Framework descriptions:** official Spec Kit clarification instructions, OpenSpec FAQ and AWS AI-DLC walkthrough checked. Workflows differ: Spec Kit currently caps its clarification session at five questions, presented individually. The draft’s concern about repeated questioning is a possible interaction failure, not a claim that each framework requires a hundred questions or prevents reflection.
+
+### Evidence used in section 5
+
+- [SignalFire — State of Talent Report 2026](https://www.signalfire.com/blog/signalfire-state-of-talent-report-2026), published 22 June 2026. **Review:** primary report checked. Its “new grad/entry-level” metric covers 12 named large technology companies and selected VC-backed Seed–Series B startups. Profile-based estimates; exact entry-level definition, geographic coverage and latest measurement endpoint are not clearly specified. The reported changes compare with 2019, not the preceding year, and do not isolate AI’s causal effect.
+- [Anthropic — How employment is changing at Anthropic](https://www.anthropic.com/research/employment-at-anthropic), published 16 October 2026. **Review:** primary company report checked. Hiring shares are distinct from counts; total technical hiring grew. “Since early 2025” is the stated comparison; the endpoint month and precise junior-band definition are not specified in the reviewed text. Single-employer evidence, not an industry estimate or causal test.
+- [Bastani et al. — Generative AI without guardrails can harm learning (2025)](https://doi.org/10.1073/pnas.2422633122). **Review:** author-hosted full paper and publisher record checked. The 17% is a relative reduction in unassisted assessment scores, not percentage points. School mathematics and immediate learning outcomes; guarded tutoring mitigated harm, without demonstrating a statistically significant unassisted learning gain. Does not establish weaker university graduates or long-term workforce effects.
+
+### Evidence used in section 6
+
+- [Kestin et al. — AI tutoring outperforms in-class active learning (2025)](https://pmc.ncbi.nlm.nih.gov/articles/PMC12179260/). **Review:** primary full text checked. Randomised crossover trial; 194 eligible Harvard physics students, two lessons, immediate assessments. Custom tutor used expert-prepared solutions, scaffolding and teaching guidance. Supports a particular tutoring design, not universal chatbot superiority, lower learning costs or long-term professional capability.
+- [Kazemitabaar et al. — Studying the effect of AI Code Generators on Supporting Novice Learners in Introductory Programming (2023)](https://arxiv.org/html/2302.07427v2). **Review:** primary methods, results and limitations checked. Controlled study of 69 young novices in a structured introductory Python environment, with manual modification tasks and feedback. No statistically significant overall retention difference after one week; lack of significance is not evidence of equivalence or absence of longer-term effects.
+- [Fischer et al. — Stack Overflow Considered Harmful? (2017)](https://conferences.computer.org/sp/pdfs/sp/2017/5533a121.pdf). **Review:** primary study checked. Static matching and security classification identify insecure examples in published Android applications. Supports a historical code-reuse concern, not a finding about individual developers’ motives, understanding, architectural judgement or the security of every use in context.
+- **Not established by these sources:** AI generally replaces paid education at equivalent quality or lower total cost; today’s younger entrants are inherently prepared for future senior roles; improved models alone resolve skill formation. The draft treats access benefits and changing expertise as possibilities to assess.
 
 ### Evidence to seek
 
