@@ -1,0 +1,2 @@
+# Preserve published PDFs as binary documents.
+*.pdf binary
